@@ -1,0 +1,30 @@
+y;Nepal Telecommunications Authority
+Kamaladi, Kathmandu,Nepal
+PO Box 9754 , Tel. No. :+977-1-4255474, 4256054
+Fax:+977-1-4255250, e-mail:ntra@nta.gov.np
+
+ere Tree el Cltelay
+
+First Publication Date: 2072/05/31
+
+Nepal Telecommunications Authority (NTA) invites Sealed Quotation from
+Nepal Telecommunications Authority (NTA) invites Sealed Quotation from
+Licensed Intemet Service Providers (ISPs) within 15 (fifteen) days (deadline is
+fixed for getting the Sealed Quotation Form till 13:00 hours and dropping the Sealed
+Offer till 15:00 hours of the last date) from its first publication in order to provide
+Intemet Access Bandwidth and Intelligent Router for bandwidth management as
+per specification provided below. The bidding document can be purchased within
+office time from Administration Section of NTA upon written request against a cash
+payment of NRs. 300/- (Rupees three hundreds only), non-refundable, accompanied
+by renewed certificate of Registration and VAT/PAN certificate.
+
+Specification Detail:
+
+* Office Use
+
+Bandwidth Requirement: 7/7 Mbps (timing: 9:00 am to 7:00 pm)
+
+Link type: Optical Fiber and Radio Link(Back up)
+
+Intelligent Router for Bandwidth Management (Specification provided in
+bidding document)
