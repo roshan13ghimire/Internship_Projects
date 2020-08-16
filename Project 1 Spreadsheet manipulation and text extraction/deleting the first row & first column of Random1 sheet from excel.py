@@ -5,7 +5,8 @@ import pandas as pd                                        #importing modules
 
 df = pd.read_excel("C:/Users/rosha/Desktop/file.xlsx")     #reading excel file and assigning it to  the dataframe
 
-df.drop(['E' , 'Unnamed: 0']  , axis = 1 , inplace = True) #removing the last column (axis = 1) and storing the result into same dataframe so we need to write inplace function
+df.drop([ 'Unnamed: 0','Unnamed: 6']  , axis = 1 , inplace = True) #removing the last column (axis = 1) and storing the result into same dataframe so we need to write inplace function
+
 
 df.drop(0 , axis = 0 ,inplace = True)                      #similarly removing the first row
 
