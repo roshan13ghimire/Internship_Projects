@@ -22,17 +22,9 @@ def prepare_data(df, steps=5):
 
 df_expanded, df_rank_expanded = prepare_data(df)
 
-def nice_axes(ax):
-    #ax.set_facecolor('.8')
-    #ax.tick_params(labelsize=8, length=0)
-    #ax.grid(True, axis='x', color='black')
-    ax.set_axisbelow(True)
-    [spine.set_visible(False) for spine in ax.spines.values()]
-
-
 def init():
     ax.clear()
-    nice_axes(ax)
+    [spine.set_visible(False) for spine in ax.spines.values()]
     ax.set_ylim(.2, 6.8)
 
 def update(i):
