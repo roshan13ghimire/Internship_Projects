@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-import plotly.graph_objects as go  #plotly 4.0.0rc1
+import plotly.graph_objects as go  
 
 
 df = pd.read_excel('C:/Users/rosha/Desktop/demoo.xlsx')
