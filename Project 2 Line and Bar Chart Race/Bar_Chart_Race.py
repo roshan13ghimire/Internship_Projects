@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 from IPython.display import HTML
-import matplotlib.patches as mpatches
 
 
 df = pd.read_excel("C:/Users/rosha/Desktop/demoo.xlsx")     
