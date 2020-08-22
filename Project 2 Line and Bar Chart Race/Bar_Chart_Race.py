@@ -1,4 +1,5 @@
 import pandas as pd 
+import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 from IPython.display import HTML
@@ -46,4 +47,4 @@ anim = FuncAnimation(fig=fig, func=update, init_func=init, frames=len(df_expande
 html = anim.to_html5_video()
 HTML(html)
 
-anim.save('C:/Users/rosha/Desktop/demoo.mp4')
+anim.save('C:/Users/rosha/Desktop/demo.mp4')
