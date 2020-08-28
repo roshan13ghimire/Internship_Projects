@@ -18,10 +18,13 @@ response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
 
 links  = soup.findAll('a')
+url_list = []
 for i in links:
     if '[1]' in i:
-        one_link = str(i)
+        url_list.append(str(i))
         
+        
+one_link = url_list[0]        
 link = one_link.split()
 final_link = link[1]
 final_url = final_link[6:len(final_link)-1]
@@ -41,3 +44,4 @@ r = requests.get(final_url1, allow_redirects=True)
 Save = 'C:/Users/rosha/Desktop/' + Save_Book_Name + '.pdf'
 
 open(Save, 'wb').write(r.content)
+    
