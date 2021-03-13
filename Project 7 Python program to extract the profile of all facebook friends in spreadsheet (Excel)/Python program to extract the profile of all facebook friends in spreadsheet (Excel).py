@@ -6,7 +6,7 @@ import pandas as pd
 
 url = 'https://m.facebook.com/friends/center/friends/?mff_nav=1'
 
-browser = webdriver.Chrome("C:/Users/rosha/Desktop/chromedriver.exe")
+browser = webdriver.Chrome("C:/Users/Roshan Ghimire/Desktop/chromedriver.exe")
 browser.get("https://m.facebook.com/login.php")
 
 username = ''              #Your email
