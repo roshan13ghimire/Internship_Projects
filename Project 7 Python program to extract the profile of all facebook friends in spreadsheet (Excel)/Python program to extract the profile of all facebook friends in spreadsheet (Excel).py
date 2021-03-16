@@ -134,6 +134,6 @@ df = pd.DataFrame({'Name': s,
                    'Life events':u ,
                    'Relationship':t,
                   })
-df.to_excel("C:/Users/rosha/Desktop/face.xlsx")
+df.to_excel("C:/Users/rosha/Desktop/facebook.xlsx")
 
 
