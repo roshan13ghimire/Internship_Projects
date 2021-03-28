@@ -1,7 +1,7 @@
 #python program for deleting the first row & first column of Random1 sheet and filling the blank cells of the table with 0.
 
 
-import pandas as pd                                        #importing modules
+import pandas as pd                                        #importing module
 
 df = pd.read_excel("C:/Users/rosha/Desktop/file.xlsx")     #reading excel file and assigning it to  the dataframe
 
